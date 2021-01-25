@@ -1,0 +1,21 @@
+.list{
+    display:inline-block;
+}
+
+.add-contact-img{
+    height: 30px;
+}
+
+.add-contact{
+}
+
+.add-body{
+    display:inline-block;
+    width: 240px;
+}
+
+.list-body{
+    width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+}
