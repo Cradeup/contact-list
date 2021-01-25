@@ -23,7 +23,7 @@ const ContactPage = (props) => {
             <Link to='/'>
                 <div>К списку контактов</div>
             </Link>
-                <button href='/' onClick={deleteContactAndGoToHome}>Удалить контакт</button>
+            <button href='/' onClick={deleteContactAndGoToHome}>Удалить контакт</button>
         </div>
     )
 }
