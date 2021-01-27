@@ -1,0 +1,28 @@
+.confirm-body{
+    width: 250px;
+    height: 110px;
+}
+
+.button-yes{
+    border: none;
+    width: 125px;
+    background-color:#ff425f;
+    height: 55px;
+}
+
+.button-no{
+    border: none;
+    width: 125px;
+    background-color: #a1bcff;
+    height: 55px;
+}
+
+.button-yes:focus {
+    outline: none;
+
+}
+
+.button-no:focus {
+    outline: none;
+
+}

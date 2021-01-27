@@ -2,6 +2,7 @@ import { Link, withRouter, useHistory } from 'react-router-dom'
 import { connect } from 'react-redux'
 import './contact-page.css'
 import { deleteContact } from '../redux/actions'
+import DeleteConfirm from './delete-confirm'
 
 const ContactPage = (props) => {
     const history = useHistory();
@@ -24,6 +25,7 @@ const ContactPage = (props) => {
                 <div>К списку контактов</div>
             </Link>
             <button href='/' onClick={deleteContactAndGoToHome}>Удалить контакт</button>
+            {/* <DeleteConfirm /> */}
         </div>
     )
 }
